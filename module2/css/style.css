@@ -23,7 +23,7 @@
         { 
           
           float: left;
-          border: 5px solid green;
+          border: 1px black;
           padding:0;
           margin:1.5%;
           background-color: lightgray;
@@ -36,7 +36,7 @@
         { 
           
           float: left;
-          border: 5px solid green;
+          border: 1px black;
           padding:0;
           margin:1.5%;
           background-color: lightgray;
@@ -54,7 +54,7 @@
         { 
           
           float: left;
-          border: 5px solid green;
+          border: 1px black;
           padding:0;
           margin:1.5%;
           background-color: lightgray;
@@ -65,8 +65,8 @@
       .recipe
       {
         font-weight:bold;
-        border-left: 5px solid green;
-        border-bottom: 5px solid green;
+        border-left: 1px black;
+        border-bottom: 1px black;
         float:right;
         width:120px;
         color: yellow;
