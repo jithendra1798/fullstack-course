@@ -1,15 +1,86 @@
-* {
-box-sizing: border-box;
-}
-p.small
-{
-  font-size: 14px;
-  font color: violet;
-  backgroud-color: gray;
-}
-div > h1
-{
-  font-size: 20px;
-  font-color: Yellow;
-  backgroud-color:orange;
-}
+    
+    <style>
+      * {
+        box-sizing: border-box;
+        padding:0;
+        margin:0;
+      }
+      
+      h1
+      {
+        padding:20px;
+        margin:30px;
+        text-align:center;
+      }
+      
+      #row
+      {
+        width:100%;
+      }
+      
+      @media (min-width: 992px)
+      {
+        .col-lg-4
+        { 
+          
+          float: left;
+          border: 5px solid green;
+          padding:0;
+          margin:1.5%;
+          background-color: lightgray;
+          width:30%;
+        }
+      }
+      @media (min-width:768px) and (max-width: 991px)
+      {
+        .col-md-6
+        { 
+          
+          float: left;
+          border: 5px solid green;
+          padding:0;
+          margin:1.5%;
+          background-color: lightgray;
+          width:47%;
+        }
+        #row > div:nth-of-type(3)
+        {
+          margin:1.5%;
+          width:97%;
+        }
+      }
+      @media (max-width:768px)
+      {
+        .col-sm-12
+        { 
+          
+          float: left;
+          border: 5px solid green;
+          padding:0;
+          margin:1.5%;
+          background-color: lightgray;
+          width:96%;
+        }
+      }
+      
+      .recipe
+      {
+        font-weight:bold;
+        border-left: 5px solid green;
+        border-bottom: 5px solid green;
+        float:right;
+        width:120px;
+        color: yellow;
+        padding:10px;
+        margin:0;
+        text-align: center;
+        background-color: brown;
+      }
+      .small
+      {
+        clear:both;
+        color: darkgreen;
+        font-size: 14px;
+        padding:10px;
+      }
+    </style>
