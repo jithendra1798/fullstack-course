@@ -1,3 +1,15 @@
 * {
 box-sizing: border-box;
 }
+p.small
+{
+  font-size: 14px;
+  font color: violet;
+  backgroud-color: gray;
+}
+div > h1
+{
+  font-size: 20px;
+  font-color: Yellow;
+  backgroud-color:orange;
+}
