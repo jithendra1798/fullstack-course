@@ -73,8 +73,19 @@
         padding:10px;
         margin:0;
         text-align: center;
-        background-color: brown;
       }
+     #r1
+     {
+          background-color: brown;
+     }
+     #r2
+     {
+          background-color: blue;
+     }
+     #r3
+     {
+          background-color: violet;
+     }
       .small
       {
         clear:both;
